@@ -33,6 +33,12 @@ book"). Style: plain, concrete, numbers in tables, honest about what didn't work
 | 23 | word-sized values (NaN-boxing) prototyped, set aside |
 | 24 | what the machine pays: line-level profiling of the dispatch loop |
 
+**Reading it as one page:** `python3 scripts/build-book.py` builds every chapter into
+`target/book/book.html` (chapter list, Lisp highlighting, links between chapters kept inside the
+page). It is published as a private Claude Artifact at
+https://claude.ai/artifact/5ihfkuND1pwCRFp1ou5nkt. After new chapters, rebuild and publish again
+**to that URL** (the Artifact tool with `url` set to it), so the link stays the same.
+
 ## Branches (all pushed, none merged)
 
 ```
